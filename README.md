@@ -35,6 +35,7 @@ ICMP packets experience low latency even during UDP traffic
 UDP traffic does not affect ping significantly
 Flow table shows higher priority rules for ICMP
 Packet counters increase according to matched traffic
+UDP throughput measured at ~1.05 Mbits/sec while ICMP ping latency remained under 1ms, confirming priority enforcement
 
 This confirms correct priority-based traffic handling.
 
