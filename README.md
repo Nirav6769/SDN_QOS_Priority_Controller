@@ -37,3 +37,16 @@ Flow table shows higher priority rules for ICMP
 Packet counters increase according to matched traffic
 
 This confirms correct priority-based traffic handling.
+
+Validation
+Successful ping results confirm connectivity
+Flow table entries confirm rule installation
+Packet counters verify active traffic matching
+Behavior matches expected QoS prioritization
+
+Refrences:
+Ryu SDN Framework Documentation: https://ryu.readthedocs.io/
+Mininet Official Documentation: http://mininet.org/documentation/
+OpenFlow Switch Specification (v1.3): https://opennetworking.org/sdn-resources/openflow-switch-specification/
+Open vSwitch Documentation: https://docs.openvswitch.org/
+iperf Documentation: https://iperf.fr/
